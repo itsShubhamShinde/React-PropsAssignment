@@ -1,0 +1,9 @@
+.App{
+  /* border: 2px solid red; */
+  height:99vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

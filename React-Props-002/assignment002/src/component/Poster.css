@@ -1,0 +1,136 @@
+.poster{
+    height: 55vh;
+    width: 60vw;
+    margin: 2rem ;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    align-items: center;
+    background-size: 50% 100%;  
+    /* box-shadow: 2px 2px 2px white; */
+    box-shadow: rgba(245, 242, 242, 0.35) 0px 5px 15px;
+    box-shadow: rgba(239, 240, 241, 0.25) 0px 1px 1px, rgba(226, 228, 231, 0.13) 0px 0px 1px 1px;
+}
+.posterDiv{
+    height: 100%;
+    border-radius: 20px;
+    width: 100%;
+    background: linear-gradient(to right, #0d0d0c 65%, transparent 100%);
+}
+.posterLiftDiv{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.moviTitle{
+    /* border: 2px solid blue; */
+    height: 50%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.moviPoster{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 30%;
+}
+.moviPoster img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+}
+.moviName{
+    /* border: 2px solid red; */
+    height: 90%;
+    width: 65%;
+}
+.moviName h1{
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.moviName h3{
+    /* border: 1px solid red; */
+    height:20%;
+    width: 90%;
+    font-size: 0.5rem;
+    font-weight: 100;
+    color: #7693b3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.moviName div{
+    /* border: 2px solid red; */
+    height:20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#time{
+    border: 1px solid gray;
+    height: 100%;
+    width: 26%;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#movitype{
+    /* border: 1px solid gray; */
+    height: 100%;
+    width: 70%; 
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.discription{
+    /* border: 2px solid yellow; */
+    height: 25%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.iconDiv{
+    /* border: 2px solid yellow; */
+    height: 15%;
+    width: 100%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.iconDiv i{
+    /* border: 1px solid yellow; */
+    height: 90%;
+    width:15%;
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.cartBox{
+    /* border: 2px solid red; */
+    height: 45%;
+    width: 15%;
+    /* margin-top: 20px; */
+    /* margin-left: 40px; */
+    margin: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.colorDiv{
+    /* border: 2px solid yellow; */
+    height: 70%;
+    width: 100%;
+}
+.nameDiv{
+    /* border: 2px solid yellow; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
